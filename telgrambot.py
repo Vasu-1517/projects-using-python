@@ -1,45 +1,5 @@
-# import telegram.ext
-# token="7071019757:AAE4pS_aW0bM-LObAZCyjB8IEtNhl0JUNWQ"
-# Updater= telegram.ext.Updater("7071019757:AAE4pS_aW0bM-LObAZCyjB8IEtNhl0JUNWQ", use_context = True)
-# dispatcher=Updater.dispatcher
 
-
-# def start(update,context):
-#     update.message.reply_text("hello welcome to vasbot")
-
-# def help(update,context):
-#     update.message.reply_text(
-#     """
-#     /start -->Welcome to channel
-#     /help -> This particular message
-#     /contact ->about various
-#     /Python -> The first video from python playlist
-#     /sql -> The first video playlist
-#     /java -> The first video java playlist
-    
-    
-#     """
-#     )
-# def content(update,context):
-#     update.message.reply_text("we have various and articles avilable")
-# def  Python(update,context):
-#     update.message.replay_text("tutorials link:https://www.youtube.com/watch?v=HGOBQPFzWKo")
-
-# def  sql(update,context):
-#     update.message.replay_text("tutorials link:https://www.youtube.com/watch?v=HGOBQPFzWKo")
-       
-# def  java(update,context):
-#     update.message.replay_text("tutorials link:https://www.youtube.com/watch?v=227uk4kDTM8&t=907s")
-       
-# dispatcher.add_handler(telegram.ext.CommandHandler('start',start))
-       
-# dispatcher.add_handler(telegram.ext.CommandHandler('start',start))
-# dispatcher.add_handler(telegram.ext.CommandHandler('PYTHON',Python))
-# dispatcher.add_handler(telegram.ext.CommandHandler('sql',sql))
-# dispatcher.add_handler(telegram.ext.CommandHandler('java',java))
-       
-# Updater.start_polling()
-# Updater.idle()      
+ 
 
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, message="python-telegram-bot is using upstream urllib3.")
