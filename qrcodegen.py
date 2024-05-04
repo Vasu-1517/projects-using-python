@@ -4,8 +4,8 @@ import qrcode as qr
 # img.save("qrcode.png")
 
 
-img=qr.make("www.linkedin.com/in/17bgn")
-img.save("nagendralinkdin.png")
+img=qr.make("www.linkedin.com/in/payasam-vasundhara")
+img.save("linkdin.png")
 
 
-from PIL import image
+
